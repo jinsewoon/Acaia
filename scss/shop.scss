@@ -1,0 +1,208 @@
+#container{
+  #section.no01{
+    .inner{
+      .item{
+        position: relative;
+        img{
+          display: block;
+          width: 100%;
+        }
+        .title{
+          position: absolute;
+          top:50%;
+          left:50%;
+          transform: translate(-50%, -50%);
+          font-size: 50px;
+          font-family: 'century gothic bold';
+          color: #1b1919;
+        }
+      }
+    }
+  }
+  #section.no02{
+    margin: 100px 0;
+    .innerWrap{
+      width: 70%;
+      .inner{
+        display: flex;
+        justify-content: center;
+        .item{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: relative;
+          flex:25%;
+
+          img{
+            margin-bottom: 50px;
+          }
+          .infoBox{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            .title{
+              font-size: 20px;
+              font-family: 'century gothic bold';
+              color: #1b1919;
+              text-align: center;
+              text-transform: uppercase;
+              padding-bottom: 10px;
+              transition: 0.5s;
+              cursor: pointer;
+              &:hover{
+                color:#5cad8e;
+              }
+            }
+            .desc{
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media all and (max-width:990px){
+  #container{
+    #section.no01{
+      .inner{
+        .item{
+          position: relative;
+          img{
+            display: block;
+            width: 100%;
+          }
+          .title{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            font-size: 40px;
+            font-family: 'century gothic bold';
+            color: #1b1919;
+          }
+        }
+      }
+    }
+    #section.no02{
+      margin: 100px 0;
+      .innerWrap{
+        // width: 70%;
+        .inner{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          .item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            flex:25%;
+            margin-bottom: 50px;
+
+            img{
+              margin-bottom: 20px;
+            }
+            .infoBox{
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              align-items: center;
+              .title{
+                font-size: 20px;
+                font-family: 'century gothic bold';
+                color: #1b1919;
+                text-align: center;
+                text-transform: uppercase;
+                padding-bottom: 10px;
+                transition: 0.5s;
+                cursor: pointer;
+                &:hover{
+                  color:#5cad8e;
+                }
+              }
+              .desc{
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media all and (max-width:780px){
+  #container{
+    #section.no01{
+      .inner{
+        .item{
+          position: relative;
+          img{
+            display: block;
+            width: 100%;
+          }
+          .title{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            font-family: 'century gothic bold';
+            color: #1b1919;
+          }
+        }
+      }
+    }
+    #section.no02{
+      margin: 100px 0;
+      .innerWrap{
+        // width: 70%;
+        .inner{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          .item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            flex:25%;
+            margin-bottom: 50px;
+
+            img{
+              margin-bottom: 20px;
+            }
+            .infoBox{
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              align-items: center;
+              .title{
+                font-size: 20px;
+                font-family: 'century gothic bold';
+                color: #1b1919;
+                text-align: center;
+                text-transform: uppercase;
+                padding-bottom: 10px;
+                transition: 0.5s;
+                cursor: pointer;
+                &:hover{
+                  color:#5cad8e;
+                }
+              }
+              .desc{
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

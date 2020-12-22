@@ -1,0 +1,765 @@
+#container{
+  #section.no01{
+    .inner{
+      .item{
+        img{
+          display: block;
+          width: 100%;
+        }
+      }
+      .appBox{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        a{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          margin: 60px 20px;
+          padding: 0 40px;
+          img{
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+          }
+          h2{
+            display: block;
+            margin: 15px 0;
+            color: #000000;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  #section.no02{
+    .innerWrap{
+      width: 60%;
+      .inner{
+        margin: 100px 0;
+        .item{
+          display: flex;
+          .appContents{
+            &.left{
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: flex-start;
+              flex:50%;
+              .appInfo{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 0 50px;
+                .name{
+                  color:#5cad8e;
+                  font-size: 18px;
+                  font-family: 'Century Gothic Bold';
+                  margin-bottom: 20px;
+                }
+                .title{
+                  color:#1b1919;
+                  font-size: 30px;
+                  font-family: 'Century Gothic Bold';
+                  margin-bottom: 20px;
+                  line-height: 1.5;
+                }
+                .desc{
+                  color:#1b1919;
+                  font-size: 16px;
+                  margin-bottom: 20px;
+                  line-height: 1.5;
+                }
+              }
+              .btnBox{
+                padding: 0 50px;
+
+                .googleplay{
+                  display: inline-block;
+                  width: 120px;
+                  height: 60px;
+                  background-image: url('../img/icon/googleplay.png');
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                }
+                .appstore{
+                  display: inline-block;
+                  width: 120px;
+                  height: 60px;
+                  background-image: url('../img/icon/appstore.png');
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                }
+              }
+            }
+            &.right{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex:50%;
+              img{
+                display: inline-block;
+                width: 100%;
+                max-width: 340px;
+                border-radius: 5px 5px 0 0;
+                box-shadow: 0 0 30px rgba(0,0,0,0.2);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #section.no03{
+    background: #f9f9f9;
+    padding-top: 100px;
+    .inner{
+      .item{
+        .appContents{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          &.upper{
+            padding-bottom: 50px;
+          }
+          .appInfo{
+            width: 25%;
+            height: 100%;
+            text-align: center;
+            padding: 0 50px;
+            .name{
+              color:#5cad8e;
+              font-size: 18px;
+              font-family: 'Century Gothic Bold';
+              margin-bottom: 20px;
+            }
+            .title{
+              color:#1b1919;
+              font-size: 30px;
+              font-family: 'Century Gothic Bold';
+              margin-bottom: 20px;
+              line-height: 1.5;
+            }
+            .desc{
+              color:#1b1919;
+              font-size: 16px;
+              margin-bottom: 20px;
+              line-height: 1.5;
+            }
+          }
+          .btnBox{
+            .appstore{
+              display: inline-block;
+              width: 120px;
+              height: 60px;
+              background-image: url('../img/icon/appstore.png');
+              background-repeat: no-repeat;
+              background-size: contain;
+            }
+          }
+          img{
+            display:inline-block;
+            width: 100%;
+            max-width: 700px;
+            border-radius: 5px 5px 0 0;
+            box-shadow: 0 0 30px rgba(0,0,0,0.2);
+          }
+        }
+      }
+    }
+  }
+  #section.no04{
+    .innerWrap{
+      width: 60%;
+      .inner{
+        margin: 100px 0;
+        .item{
+          display: flex;
+          .appContents{
+            &.left{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex:50%;
+              img{
+                display: inline-block;
+                width: 100%;
+                max-width: 340px;
+                border-radius: 5px 5px 0 0;
+                box-shadow: 0 0 30px rgba(0,0,0,0.2);
+              }
+            }
+            &.right{
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: flex-start;
+              flex:50%;
+              .appInfo{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 0 50px;
+                .name{
+                  color:#5cad8e;
+                  font-size: 18px;
+                  font-family: 'Century Gothic Bold';
+                  margin-bottom: 20px;
+                }
+                .title{
+                  color:#1b1919;
+                  font-size: 30px;
+                  font-family: 'Century Gothic Bold';
+                  margin-bottom: 20px;
+                  line-height: 1.5;
+                }
+                .desc{
+                  color:#1b1919;
+                  font-size: 16px;
+                  margin-bottom: 20px;
+                  line-height: 1.5;
+                }
+              }
+              .btnBox{
+                padding: 0 50px;
+                .googleplay{
+                  display: inline-block;
+                  width: 120px;
+                  height: 60px;
+                  background-image: url('../img/icon/googleplay.png');
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                }
+                .appstore{
+                  display: inline-block;
+                  width: 120px;
+                  height: 60px;
+                  background-image: url('../img/icon/appstore.png');
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width:990px){
+  #container{
+    #section.no01{
+      .inner{
+        .item{
+          img{
+            display: block;
+            width: 100%;
+          }
+        }
+        .appBox{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          a{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: row;
+            width: 30%;
+            margin: 30px 0px;
+            padding: 0 20px;
+            img{
+              display: inline-block;
+              width: 60px;
+              height: 60px;
+            }
+            h2{
+              display: block;
+              margin: 15px 20px;
+              color: #000000;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+    #section.no02{
+      .innerWrap{
+        width: 60%;
+        .inner{
+          margin: 100px 0;
+          .item{
+            display: flex;
+            flex-direction: column;
+            .appContents{
+              &.left{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                flex:50%;
+                .appInfo{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  text-align: center;
+                  padding: 0 50px;
+                  .name{
+                    color:#5cad8e;
+                    font-size: 18px;
+                    font-family: 'Century Gothic Bold';
+                    margin-bottom: 20px;
+                  }
+                  .title{
+                    color:#1b1919;
+                    font-size: 30px;
+                    font-family: 'Century Gothic Bold';
+                    margin-bottom: 20px;
+                    line-height: 1.5;
+                  }
+                  .desc{
+                    color:#1b1919;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                    line-height: 1.5;
+                  }
+                }
+                .btnBox{
+                  padding: 0 50px;
+
+                  .googleplay{
+                    display: inline-block;
+                    width: 120px;
+                    height: 60px;
+                    background-image: url('../img/icon/googleplay.png');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  }
+                  .appstore{
+                    display: inline-block;
+                    width: 120px;
+                    height: 60px;
+                    background-image: url('../img/icon/appstore.png');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  }
+                }
+              }
+              &.right{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex:50%;
+                img{
+                  display: inline-block;
+                  width: 100%;
+                  max-width: 340px;
+                  border-radius: 5px 5px 0 0;
+                  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #section.no03{
+      background: #f9f9f9;
+      padding-top: 100px;
+      .inner{
+        .item{
+          .appContents{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &.upper{
+              padding-bottom: 50px;
+            }
+            .appInfo{
+              width: 25%;
+              height: 100%;
+              text-align: center;
+              padding: 0 50px;
+              .name{
+                color:#5cad8e;
+                font-size: 18px;
+                font-family: 'Century Gothic Bold';
+                margin-bottom: 20px;
+              }
+              .title{
+                color:#1b1919;
+                font-size: 30px;
+                font-family: 'Century Gothic Bold';
+                margin-bottom: 20px;
+                line-height: 1.5;
+              }
+              .desc{
+                color:#1b1919;
+                font-size: 16px;
+                margin-bottom: 20px;
+                line-height: 1.5;
+              }
+            }
+            .btnBox{
+              .appstore{
+                display: inline-block;
+                width: 120px;
+                height: 60px;
+                background-image: url('../img/icon/appstore.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+              }
+            }
+            img{
+              display:inline-block;
+              width: 100%;
+              max-width: 550px;
+              border-radius: 5px 5px 0 0;
+              box-shadow: 0 0 30px rgba(0,0,0,0.2);
+            }
+          }
+        }
+      }
+    }
+    #section.no04{
+      .innerWrap{
+        width: 60%;
+        .inner{
+          margin: 100px 0;
+          .item{
+            display: flex;
+            flex-direction: column-reverse;
+            .appContents{
+              &.left{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex:50%;
+                img{
+                  display: inline-block;
+                  width: 100%;
+                  max-width: 340px;
+                  border-radius: 5px 5px 0 0;
+                  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+                }
+              }
+              &.right{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                flex:50%;
+                .appInfo{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  text-align: center;
+                  padding: 0 50px;
+                  .name{
+                    color:#5cad8e;
+                    font-size: 18px;
+                    font-family: 'Century Gothic Bold';
+                    margin-bottom: 20px;
+                  }
+                  .title{
+                    color:#1b1919;
+                    font-size: 30px;
+                    font-family: 'Century Gothic Bold';
+                    margin-bottom: 20px;
+                    line-height: 1.5;
+                  }
+                  .desc{
+                    color:#1b1919;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                    line-height: 1.5;
+                  }
+                }
+                .btnBox{
+                  padding: 0 50px;
+                  .googleplay{
+                    display: inline-block;
+                    width: 120px;
+                    height: 60px;
+                    background-image: url('../img/icon/googleplay.png');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  }
+                  .appstore{
+                    display: inline-block;
+                    width: 120px;
+                    height: 60px;
+                    background-image: url('../img/icon/appstore.png');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width:780px){
+  #container{
+    #section.no01{
+      .inner{
+        .item{
+          img{
+            display: block;
+            width: 100%;
+          }
+        }
+        .appBox{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          a{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: row;
+            width: 30%;
+            margin: 30px 0px;
+            padding: 0 20px;
+            img{
+              display: inline-block;
+              width: 60px;
+              height: 60px;
+            }
+            h2{
+              display: block;
+              margin: 15px 20px;
+              color: #000000;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+    #section.no02{
+      .innerWrap{
+        width: 100%;
+        .inner{
+          margin: 100px 0;
+          .item{
+            display: flex;
+            flex-direction: column;
+            .appContents{
+              &.left{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                flex:50%;
+                .appInfo{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  text-align: center;
+                  padding: 0 50px;
+                  .name{
+                    color:#5cad8e;
+                    font-size: 18px;
+                    font-family: 'Century Gothic Bold';
+                    margin-bottom: 20px;
+                  }
+                  .title{
+                    color:#1b1919;
+                    font-size: 30px;
+                    font-family: 'Century Gothic Bold';
+                    margin-bottom: 20px;
+                    line-height: 1.5;
+                  }
+                  .desc{
+                    color:#1b1919;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                    line-height: 1.5;
+                  }
+                }
+                .btnBox{
+                  padding: 0 50px;
+
+                  .googleplay{
+                    display: inline-block;
+                    width: 120px;
+                    height: 60px;
+                    background-image: url('../img/icon/googleplay.png');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  }
+                  .appstore{
+                    display: inline-block;
+                    width: 120px;
+                    height: 60px;
+                    background-image: url('../img/icon/appstore.png');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  }
+                }
+              }
+              &.right{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex:50%;
+                img{
+                  display: inline-block;
+                  width: 100%;
+                  max-width: 250px;
+                  border-radius: 5px 5px 0 0;
+                  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #section.no03{
+      background: #f9f9f9;
+      padding-top: 100px;
+      .inner{
+        .item{
+          .appContents{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &.upper{
+              padding-bottom: 50px;
+            }
+            .appInfo{
+              width: 75%;
+              height: 100%;
+              text-align: center;
+              padding: 0 50px;
+              .name{
+                color:#5cad8e;
+                font-size: 18px;
+                font-family: 'Century Gothic Bold';
+                margin-bottom: 20px;
+              }
+              .title{
+                color:#1b1919;
+                font-size: 30px;
+                font-family: 'Century Gothic Bold';
+                margin-bottom: 20px;
+                line-height: 1.5;
+              }
+              .desc{
+                color:#1b1919;
+                font-size: 16px;
+                margin-bottom: 20px;
+                line-height: 1.5;
+              }
+            }
+            .btnBox{
+              .appstore{
+                display: inline-block;
+                width: 120px;
+                height: 60px;
+                background-image: url('../img/icon/appstore.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+              }
+            }
+            img{
+              display:inline-block;
+              width: 75%;
+              max-width: 550px;
+              border-radius: 5px 5px 0 0;
+              box-shadow: 0 0 30px rgba(0,0,0,0.2);
+            }
+          }
+        }
+      }
+    }
+    #section.no04{
+      .innerWrap{
+        width: 100%;
+        .inner{
+          margin: 100px 0;
+          .item{
+            display: flex;
+            flex-direction: column-reverse;
+            .appContents{
+              &.left{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex:50%;
+                img{
+                  display: inline-block;
+                  width: 100%;
+                  max-width: 250px;
+                  border-radius: 5px 5px 0 0;
+                  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+                }
+              }
+              &.right{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                flex:50%;
+                .appInfo{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  text-align: center;
+                  padding: 0 50px;
+                  .name{
+                    color:#5cad8e;
+                    font-size: 18px;
+                    font-family: 'Century Gothic Bold';
+                    margin-bottom: 20px;
+                  }
+                  .title{
+                    color:#1b1919;
+                    font-size: 30px;
+                    font-family: 'Century Gothic Bold';
+                    margin-bottom: 20px;
+                    line-height: 1.5;
+                  }
+                  .desc{
+                    color:#1b1919;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                    line-height: 1.5;
+                  }
+                }
+                .btnBox{
+                  padding: 0 50px;
+                  .googleplay{
+                    display: inline-block;
+                    width: 120px;
+                    height: 60px;
+                    background-image: url('../img/icon/googleplay.png');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  }
+                  .appstore{
+                    display: inline-block;
+                    width: 120px;
+                    height: 60px;
+                    background-image: url('../img/icon/appstore.png');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
